@@ -1,0 +1,9 @@
+#Data Types in JS
+1. Primitive Data Types
+>Number, String, Boolean, Undefined, NULL, BigInt, Symbol
+>typeof "variable name" to find the data types of the variable
+
+2. Non-Primitive Data Types
+>Objects, Arrays, Functions
+
+>Objects:- It is the collection of values
