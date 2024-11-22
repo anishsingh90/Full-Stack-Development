@@ -1,0 +1,4 @@
+Ternary Operators:- condition?true output : false output
+// age > 18 ? "adult" : "not adult";
+
+//MDN Documentation For HTML, CSS, JavaScript
