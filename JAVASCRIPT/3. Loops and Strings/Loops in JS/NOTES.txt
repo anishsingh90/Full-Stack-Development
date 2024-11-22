@@ -1,0 +1,37 @@
+#Loops in JS:- Loops are used to execute a piece of code again & again.
+/*
+for( let i = 1; i ,= 5; i++){
+    console.log("apna College")
+;}
+*/
+
+#Infinite Loop = A loop that never ends.
+
+#While Loop
+/*
+ while(condition){
+    //do some work
+ }
+*/
+
+#do-while Loop
+/*
+do{
+
+} while(condition);
+*/
+
+
+#For-of Loop
+/*
+for(let val of strVar){
+    //do some work
+}
+*/
+
+#For-in Loop
+/*
+for(let key in objVar){
+    //do some work
+}
+*/
