@@ -1,4 +1,4 @@
 #OPERATORS IN JS
 :-Used to perform some operation on data
 1. Arithmetic Operators(+, -, *, /, %=modulus, **=Exponential)
-2. Unary Operators(a++=Increment, a--=Decrement)
+2. Unary Operators(a++= Post Increment, a--= Post Decrement, ++a = Pre-Post Increment, --a = Pre Decrement)
