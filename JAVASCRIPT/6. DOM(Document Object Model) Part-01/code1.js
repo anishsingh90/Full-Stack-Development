@@ -1,2 +1,4 @@
 console.log("Hello!");
-alert("Apna College");
+
+//change heading of web page
+document.body.childNodes[3].innerText = "Anish";
