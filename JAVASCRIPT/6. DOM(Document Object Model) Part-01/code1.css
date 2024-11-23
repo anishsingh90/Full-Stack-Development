@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    background-color:red;
+}
+
+body{
+    background-color: pink;
+}
+
+button{
+    background-color: red;
+    color: blue;
+    font-weight: bold;
+}

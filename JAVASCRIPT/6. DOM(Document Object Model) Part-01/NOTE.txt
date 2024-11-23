@@ -1,0 +1,33 @@
+#The 3 Musketeers of Web Dev
+(i). HTML(Structure)
+(ii). CSS(Style)
+(iii). JavaScript(Logic)
+
+#Starter Code
+<style> tag connects HTML with CSS
+<script> tag connects HTML with JS
+
+#Window Object:- The window object represents an open
+window in a browser. It is browser's object(not JavaScript's) &
+ is automatically created by browser.
+   > It is a global object with lots of properties & methods.
+
+#What is DOM?
+:- When a web page is loaded, the browser creates a 
+   Document Object Model(DOM) of the page.
+- DOM is a tree-like structure that represents the web page.
+- It is a collection of nodes that represent the elements of the web page
+- Each node in the DOM has a unique id, class, and other attributes.
+- DOM is used to interact with the web page, add or remove elements, change styles.
+
+               window 
+                 |
+              document
+                 |
+                html
+                /  \
+            head    body
+           / | | \    / \
+meta,meta,title,link  div  script
+                      /||\
+                  img,h1,p,div
