@@ -1,0 +1,53 @@
+#Functions in JS:- Blocck of code that performs a specific task, can 
+be invoked whenerver needed.
+
+#Function Definition:-
+  function functionName(){
+    //do some work
+  }
+
+  function functionName(param1, param2...){
+    //do some work
+  }
+
+  #Function Call:-
+   functionName();
+
+# Function is remove redundacy(repeatation) of code.
+
+#Arrow Functions:- Compact way of writing a function.
+  eg.:- const functionName = (param1, param2 ...) =>{
+    //do some work
+  }
+
+#forEach Loop in Arrays:- arr.forEach(callBackFunction)
+ >It is know as Higher order function/methods.
+ > callBackFunction:- Here, it is a execute for each element in the arrays
+ > A callback is a function passed as an argument to another function.
+
+  /*
+  arr.forEach((val) => {
+    console.log(val);
+  })
+  */
+
+
+#Map(Array Methods):- Create a new array with the result of
+  some operation. The value its callback return are used to 
+  form new array.
+
+   >arr.map(callbackFnx(value, index, array))
+
+   /*
+   let newArr = arr.map((val) => {
+    return val * 2;
+   })
+   */
+
+#Filter(Array Methods):- Create a new array of elements that give true for a condition/filter.
+  Eg.:- all even elements
+  /*
+   let newArr = arr.filter( (val)=>{
+    return val % 2 === 0;
+   })
+  */
