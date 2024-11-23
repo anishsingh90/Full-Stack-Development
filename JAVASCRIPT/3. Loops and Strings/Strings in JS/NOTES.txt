@@ -1,0 +1,28 @@
+#Strings in JS:- String is a sequence of characters used to represent text.
+ 
+> Create String
+let str = "Apna College";
+
+>String Length
+str.Length
+
+>String Indices
+str[0], str[1], str[2]
+
+>Template Literals in JS:- A way to have embedded expressions in Strings
+ eg:- `this is a template literal`
+
+> String Interpolation:- To create strings by doing substitution of placeholders
+ eg:- `string text ${expressions} string text`
+
+ > '\n' = It is used in string for new line characters
+
+
+ > String Methods in JS:- These are built-in functions to manipulate a string
+    (i). str.toUpperCase()
+    (ii). str.toLowerCase()
+    (iii). str.trim() //It removes whitespaces
+    (iv). str.slice(start, end?) //returns part of string
+    (v). str.concat(str2) //joins str2 with str1
+    (vi). str.replace(searchVal, newVal)
+    (vii). str.charAt(idx) 
