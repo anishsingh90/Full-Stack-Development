@@ -51,3 +51,6 @@ be invoked whenerver needed.
     return val % 2 === 0;
    })
   */
+
+#Reduce(Array Methods):- Performs some operations & reduces the
+array to a single value. It returns that single value.
