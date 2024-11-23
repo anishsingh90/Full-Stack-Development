@@ -31,3 +31,8 @@ window in a browser. It is browser's object(not JavaScript's) &
 meta,meta,title,link  div  script
                       /||\
                   img,h1,p,div
+
+#DOM Manipulation
+(i). Select with id:- document.getElementById("myId")
+(ii). Selecting with class:- document.getElementByClassName("myClass")
+(iii). Selecting with tag:- document.getElementByTagName("p")
