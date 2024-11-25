@@ -3,7 +3,7 @@ console.log(price)
 x = null;
 console.log(x)
 y = undefined;
-console.log(undefined)
+console.log(y)
 
 //Boolean type
 x = true;
