@@ -36,3 +36,13 @@ meta,meta,title,link  div  script
 (i). Select with id:- document.getElementById("myId")
 (ii). Selecting with class:- document.getElementByClassName("myClass")
 (iii). Selecting with tag:- document.getElementByTagName("p")
+(iv). Selecting with query:- document.querySelector("myId / myClass / tag") //returns first element
+(v). Selecting with queryAll:- document.querySelectorAll("myId / myClass / tag") //returns a NodeList
+
+#DOM Manipulation Properties
+(i). tagName:- returns tag for element nodes
+(ii). innerText:- returns the text content of the element and all its children
+(iii). innerHTML:- returns the plain text or HTML contents in the element
+(iv). outerHTML:- returns the element and all its children as a string.
+(v). style:- returns the style of the element
+(vi). textContent:- returns textual content even for hidden elements.
