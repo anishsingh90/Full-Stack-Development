@@ -12,3 +12,7 @@ button{
     color: blue;
     font-weight: bold;
 }
+
+#header{
+    background-color: aqua;
+}
