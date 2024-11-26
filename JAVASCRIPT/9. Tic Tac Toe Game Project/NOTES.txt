@@ -1,0 +1,9 @@
+#Tic Tac Toe
+(i). Winning Pattern = 0, 1, 2
+(ii). Winning Pattern = 3, 4, 5
+(iii). Winning Pattern = 6, 7, 8
+(iv). Winning Pattern = 0, 3, 6
+(v). Winning Pattern = 1, 4, 7
+(vi). Winning Pattern = 2, 5, 8
+(vii). Winning Pattern = 0, 4, 8
+(viii). Winning Pattern = 2, 4, 6

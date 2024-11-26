@@ -20,4 +20,4 @@ document.querySelector("body").prepend(newBtn);
 
 //Qs2.
 let para = document.querySelector("p");
-para.classList.add("newClass")
+para.classList.add("newClass");
