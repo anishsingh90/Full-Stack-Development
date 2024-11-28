@@ -4,7 +4,7 @@
 (iii). JavaScript(Logic)
 
 #Starter Code
-<style> tag connects HTML with CSS
+<style> tag connects HTML with CSS.
 <script> tag connects HTML with JS
 
 #Window Object:- The window object represents an open
