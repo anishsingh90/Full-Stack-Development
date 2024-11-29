@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React Js
+          Learn React Js With Self & Regular Consistency
         </a>
       </header>
     </div>
