@@ -30,6 +30,6 @@ console.log(b)
 let x = BigInt("123");
 console.log(x);
 
-//(7).Hello Data Types
+//(7).Symbol Data Types
 let y = Symbol("Hello!")
 console.log(y)
