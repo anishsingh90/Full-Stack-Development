@@ -109,8 +109,10 @@
             <td> :- used to display table data
             <th> :- used to display table header
 
+
 #Caption in Tables:- 
 <caption>Student Data</caption>
+
 
 #thead & tbody in Tables
 <thead> :- used to display table header
@@ -133,3 +135,36 @@
 needs to be performed when a form is submitted.
     
     <form action="/action.php">
+
+
+#Form Element : Input:-
+> <input type="text" placeholder ="Enter Name">
+
+
+#Label:-
+<label for="id1">
+      <input type="radio" value = "class X" name="class" id="id1">
+</label>
+
+<label for="id2">
+    <input type="radio" value = "class XII" name="class" id="id2">
+</label>
+
+
+#Checkbox:-
+<label for="id1">
+    <input type="checkbox" value="class X" name="class" id="id1">
+    </lable>
+
+<label for="id2">
+    <input type="checkbox" value="class X" name="class" id="id2">
+    </label> 
+
+
+
+#Select:-
+<select name="city" id="city">
+     <option value="delhi">Delhi</option>
+     <option value="mumbai">Mumbai</option>
+     <option value="Banglore">Delhi</option>
+</select>
