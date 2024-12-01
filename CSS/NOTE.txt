@@ -1,0 +1,7 @@
+<--------------------------LEVEL-01---------------------->
+#CSS:- Cascading Style Sheet
+ > It is a language that is used to describe the style of a docoument.
+
+#Including Style:-
+ >External Stylesheet:- Writing CSS in a separate docoument & linkig it with HTML file.
+ >Internal Stylesheet:- Writing CSS in the HTML file itself.

@@ -1,0 +1,17 @@
+h1{
+    color: green;
+}
+
+p{
+    color: rgb(46, 35, 35);
+}
+
+button{
+    background-color: rgb(88, 52, 52);
+    color: red;
+}
+
+botton:hover{
+    color: white;
+    background-color: black;
+}

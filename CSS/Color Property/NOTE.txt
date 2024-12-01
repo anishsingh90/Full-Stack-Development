@@ -1,0 +1,12 @@
+#Color Property:- Used to set the color of foreground.
+>color: red; color:pink;
+
+
+#Background Color Property:- Used to set the color of Background.
+> background-color: red;
+> background-color: pink;
+> background-color: yellow;
+
+#Color Systems:-
+>RGB :- color: rgb(255, 0, 0)
+>Hex(Hexadicimal):- color:#ff0000;
