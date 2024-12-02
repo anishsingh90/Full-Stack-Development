@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
 export default function Navbar(props) {
-  return (
+  return(
     <div>
        <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
