@@ -1,0 +1,3 @@
+#Text Properties:- 
+> text-align: left / right / center
+>text-decoration: underline / overline / line-through
