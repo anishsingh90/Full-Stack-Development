@@ -12,7 +12,6 @@ export default function TextForm(props) {
       let newText = text.toLowerCase();
       setText(newText);
   } 
-
   
   const handleClearClick = ()=>{
     let newText = '';
