@@ -1,6 +1,7 @@
-//Ternary Operator
-let age = 2;
+let str = "Anish Singh";
 
-let result = age >= 18 ? "adult" : "not adult";
+console.log(str.toUpperCase(str));
+console.log(str.toLowerCase(str));
 
-console.log(result);
+let str1 = "    Anish Singh   ";
+console.log(str1.trim(str1));

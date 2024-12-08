@@ -1,1 +1,0 @@
->npm start for start react app
