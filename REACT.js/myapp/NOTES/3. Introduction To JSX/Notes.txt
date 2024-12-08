@@ -4,4 +4,13 @@
 >JSX also contain all the HTML like attributes.
 >JSX is used to write HTML in JavaScript files.
 >JSX make the code simpler and it look elegant.
-
+>It is not necessary to write JSX to render HTML tags.
+>React.createElement() method can be used in place.
+/*
+Syntax:-
+React.createElement(
+    "parent node",
+    optional properties,
+    "child node"
+     );
+*/

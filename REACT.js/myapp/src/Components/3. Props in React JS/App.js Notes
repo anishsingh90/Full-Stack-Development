@@ -1,0 +1,21 @@
+import "./App.css";
+import Demo from "./Components/3. Props in React JS/Demo";
+import Person1 from "./Components/3. Props in React JS/Person1";
+
+function App() {
+  return (
+    //JSX -> JS + HTML
+    <div className="App">
+      <Demo number="1" />
+      <Person1 name="John" age="20" />
+
+      <Demo number="2" />
+      <Person1 name="Bhagirath" age="21" />
+
+      <Demo number="3" />
+      <Person1 name="Anish Singh" age="20" />
+    </div>
+  );
+}
+
+export default App;

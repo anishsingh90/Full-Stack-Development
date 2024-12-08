@@ -1,0 +1,10 @@
+#What is "State"?
+>State is a built-in object of the React Components.
+>The state object is used to store all the data that belongs to that 
+particular component only.
+>The state is only accessible inside the component it belongs to.
+>State is mutable, it can be changed as per the need.
+>Whenever the sate object changes the component is re-rendered.
+
+>To use state inside a class component "this.state" is used.
+>To use state inside a functional component "use State" hook is used.
