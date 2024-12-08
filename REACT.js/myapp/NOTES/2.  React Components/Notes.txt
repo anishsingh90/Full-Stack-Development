@@ -1,0 +1,18 @@
+#What are React Components?
+>Components are independent and reusable bits of code.
+>Components are JavaScript files.
+>They serve the same purpose as JavaScript functions.
+>But works in isolation and returns HTML via a render function.
+
+#Types of Components:-
+>(i). Class Based (ii). Functions Based
+
+#Class Based Components:-
+>It is ES6 Class
+>It receives Props(Properties) Optionaly 
+>Provide HTML(JSX) in return
+
+#Functional Components:-
+>It is JavaScript Function.
+>It receives Props(Properties) Optionaly 
+>Provide HTML(JSX) in return

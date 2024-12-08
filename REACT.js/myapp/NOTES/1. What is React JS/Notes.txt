@@ -11,3 +11,7 @@
 >Virtual DOM
 >Simplicity
 >Performance
+
+#Rendering DOM:-
+>Virtual DOM
+>Actual DOM

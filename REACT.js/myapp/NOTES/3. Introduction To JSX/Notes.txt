@@ -1,0 +1,7 @@
+#Introduction to JSX:-
+>Extension to JavaScript language syntax.
+>JSX = JavaScript and XML.
+>JSX also contain all the HTML like attributes.
+>JSX is used to write HTML in JavaScript files.
+>JSX make the code simpler and it look elegant.
+
