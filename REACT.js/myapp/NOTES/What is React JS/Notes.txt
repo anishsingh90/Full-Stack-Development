@@ -1,0 +1,13 @@
+#What is React JS?
+>Light-Weight JavaScript Library
+>Developed and Managed By Facebook
+>Open Source
+>Used for Building User Interfaces
+
+#Featured of React JS:-
+>JSX(JavaScript + HTML)
+>Components
+>One-way data binding
+>Virtual DOM
+>Simplicity
+>Performance
