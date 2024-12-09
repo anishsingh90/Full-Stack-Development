@@ -1,0 +1,16 @@
+.App-header{
+    box-shadow: 0px 0px 5px gray;
+    background-color: yellowgreen;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  i{
+    color: red;
+  }
+
+  h2{
+    color: blue;
+  }
