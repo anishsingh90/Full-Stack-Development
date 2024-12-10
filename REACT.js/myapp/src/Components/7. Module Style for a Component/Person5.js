@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./Person5.css";
+import PersonStyle from "./Person5.module.css";
 
-class Person4 extends Component {
+class Person5 extends Component {
   render() {
     return (
-      <div className="App-header">
+      <div className={PersonStyle.PersonBox}>
         <h1>
-          <i>Welcome To WsCube Tech</i>
+          <i className={PersonStyle.name}>Welcome To WsCube Tech</i>
         </h1>
         <h2>Testing</h2>
       </div>
@@ -14,4 +14,4 @@ class Person4 extends Component {
   }
 }
 
-export default Person4;
+export default Person5;
