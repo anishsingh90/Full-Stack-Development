@@ -1,13 +1,12 @@
 import React from "react";
-import Greeting from "./Component/practice";
+import HelloWorld from "./Component/practice";
 
-const HelloWorld = () => {
+const Greeting = ({ name }) => {
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <Greeting />
+      <Navmenu />
     </div>
   );
 };
 
-export default HelloWorld;
+export default Greeting;

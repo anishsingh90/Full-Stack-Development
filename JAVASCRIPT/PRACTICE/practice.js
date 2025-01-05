@@ -1,7 +1,32 @@
-let str = "Anish Singh";
+//Primitive Data Types
 
-console.log(str.toUpperCase(str));
-console.log(str.toLowerCase(str));
+//Number Data Types
+let age = 24;
+console.log(age);
 
-let str1 = "    Anish Singh   ";
-console.log(str1.trim(str1));
+//String Data Types
+let fullName = "Anish";
+console.log(fullName);
+
+//Boolean Data Types
+isFollow = true;
+console.log(isFollow);
+
+isName = false;
+console.log(isName);
+
+//Undefined Data Types
+let a;
+console.log(a);
+
+//Null Data Types
+let b = null;
+console.log(b);
+
+//BigInt Data Types
+let x = BigInt("123");
+console.log(x);
+
+//Symbol Data Types
+let y = Symbol("Hello!");
+console.log(y);

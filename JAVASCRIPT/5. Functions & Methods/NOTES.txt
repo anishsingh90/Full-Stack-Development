@@ -1,4 +1,4 @@
-#Functions in JS:- Blocck of code that performs a specific task, can 
+#Functions in JS:- Block of code that performs a specific task, can 
 be invoked whenerver needed.
 
 #Function Definition:-
