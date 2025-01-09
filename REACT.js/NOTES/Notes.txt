@@ -1,0 +1,21 @@
+#React JS:-
+>React.js commonly reffered to as React, is an open-source
+JavaScript library developed and maintained by Facebook.
+>It is a popular tool for building user interfaces(UIs) and is widely used in web development.
+
+
+#JS vs React JS
+(i). >JavaScript follow Imperative Style
+> React JS follow Declarative Style
+
+#React JS - Component Based
+>In React, Component are the building blocks of user interfaces.
+They are reusable self-contained pieces of code that represent 
+a part of a user interface.
+
+#React JS - Code Structure
+/*
+(i). imports
+(ii). JavaScript Code
+(iii). Exports
+*/

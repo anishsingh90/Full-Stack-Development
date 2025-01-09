@@ -1,10 +1,10 @@
 import React from "react";
-import HelloWorld from "./Component/practice";
+import PracticeComponent from "./Component/practice";
 
 const Greeting = ({ name }) => {
   return (
     <div>
-      <Navmenu />
+      <PracticeComponent />
     </div>
   );
 };
