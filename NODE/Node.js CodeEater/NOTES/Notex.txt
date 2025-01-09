@@ -1,0 +1,5 @@
+#What is Node Js?
+>Node Js - JavaScript Runtime Environment.
+>JavaScript can be run on the server(on any machine)
+>Node JS doest not run on browser. As it is a special 
+kind of JavaScript.
