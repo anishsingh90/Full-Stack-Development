@@ -1,0 +1,23 @@
+(1). Create a Table
+(2). Add Data into Tables using the Insert Query
+(3). Select Query with Where Clause
+(4). Table Constraints Tutorial with Example
+(5). Commands: And, OR & NOT Operator
+(6). IN Operator on Database Table
+(7). LIKE Operator and Wildcard
+(8). Between and Not Between Operators
+(9). Order By and Distinct
+(10). IS NULL and IS NOT NULL Operators
+(11). Limit and Offset Complete Tutorial
+(12). Aggregate Functions: SUM, MIN, MAX & AVG
+(13). UPDATE Statement
+(14). DELETE Query
+(15). Primary Key and Foreign Key
+(16). Data Transaction
+(17). Primary Key and Foreign Key
+(19). MySQL INNER JOIN Command
+(20). Difference Between Left Join & Right Join
+(21). Cross Join
+(22). How to Join Multiple Tables
+(23). What are MySQL GROUP BY & HAVING
+(24). SubQuery with EXISTS & NOT Exists
