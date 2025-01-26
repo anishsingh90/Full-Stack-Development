@@ -1,7 +1,7 @@
 function User() {
   return (
     <>
-      <h1>Anish Singh</h1>
+      <h1>Component in React</h1>
     </>
   );
 }
