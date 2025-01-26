@@ -1,12 +1,15 @@
-function App() {
-  function apple() {
-    alert("Function Called");
-  }
+import { useState } from "react";
 
+function App() {
+  const [data, setData] = useState("Anish");
+
+  function updateData() {
+    setData("Singh");
+  }
   return (
     <>
-      <h1>Hello World</h1>
-      <button onClick={() => alert("Hello World")}>CLick Me!</button>
+      <h1>{data}</h1>
+      <button onClick={updateData}>Update Data</button>
     </>
   );
 }
