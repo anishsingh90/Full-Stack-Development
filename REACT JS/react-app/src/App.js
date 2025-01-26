@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>{data}</h1>
-      <button onClick={updateData}>Update Data</button>
+      <button onClick={updateData}>Update-Data</button>
     </>
   );
 }
