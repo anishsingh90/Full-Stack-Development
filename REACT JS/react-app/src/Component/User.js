@@ -1,13 +1,5 @@
-import React, { Component } from "react";
-
-class User extends Component {
-  render() {
-    return (
-      <>
-        <h1>Hello From User</h1>
-      </>
-    );
-  }
+function User() {
+  return <div className="hello">Hell Frieds</div>;
 }
 
 export default User;
