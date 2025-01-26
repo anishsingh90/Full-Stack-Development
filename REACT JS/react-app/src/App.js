@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <h1>Hello World</h1>
-      <button onClick={() => alert("Hello")}>CLick Me!</button>
+      <button onClick={() => alert("Hello World")}>CLick Me!</button>
     </>
   );
 }
