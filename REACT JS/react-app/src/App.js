@@ -1,10 +1,12 @@
-import User from "./Component/User";
-
 function App() {
+  function apple() {
+    alert("Function Called");
+  }
+
   return (
     <>
       <h1>Hello World</h1>
-      <User />
+      <button onClick={apple}>CLick Me!</button>
     </>
   );
 }
