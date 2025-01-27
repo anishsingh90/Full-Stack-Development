@@ -1,31 +1,19 @@
-//Update Props with Class Component
-import React from "react";
+import React, { useState } from "react";
 
-import Student from "./Component/Student";
+function App() {
+  const [data, setData] = useState(null);
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      name: "Anish",
-      email: "anishraaz90@gmail.com",
-    };
+  function getData(val) {
+    console.log(val.target.value);
+    setData(val.target.value);
   }
 
-  render() {
-    return (
-      <div className="App">
-        <h1>Props !</h1>
-        <Student name={this.state.name} email={this.state.email} />
-        <button onClick={() => this.setState({ name: "Singh" })}>
-          Update Name
-        </button>
-        <button onClick={() => this.setState({ email: "singh90@gmail.com" })}>
-          Update Email
-        </button>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <h1>{data}</h1>
+      <input type="text" onChange={getData} />
+    </div>
+  );
 }
 
 export default App;
