@@ -1,6 +1,5 @@
-let app = require("./app");
+let arr = [2, 4, 7, 1, 3, 8, 3];
 
-console.log(app);
-console.log("x: ", app.x);
-console.log("y: ", app.y);
-console.log("z: ", app.z());
+arr.filter((item) => {
+  console.log(item);
+});
