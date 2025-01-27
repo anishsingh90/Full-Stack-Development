@@ -1,2 +1,2 @@
-const fs = require("fs");
-fs.writeFileSync("hello.txt", "Code step by step");
+// const fs = require("fs");
+console.log(__dirname);
