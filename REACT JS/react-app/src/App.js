@@ -1,25 +1,17 @@
-import React from "react";
+//Props with Functional Component
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      data: "Anish",
-    };
-  }
+import Student from "./Component/Student";
 
-  apple() {
-    this.setState({ data: "Singh" });
-  }
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello World !</h1>
-        <h1>{this.state.data}</h1>
-        <button onClick={() => this.apple()}>Update Data</button>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Student
+        name="Anish"
+        email="anishraaz90@gmail.com"
+        other={{ address: "Delhi", mobile: "8368513561" }}
+      />
+    </div>
+  );
 }
 
 export default App;
