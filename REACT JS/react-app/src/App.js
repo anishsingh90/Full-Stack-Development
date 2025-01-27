@@ -1,21 +1,14 @@
-//Change Props with Functional Component
-import React, { useState } from "react";
-
+//Props with Class Component
 import Student from "./Component/Student";
 
 function App() {
-  const [name, setName] = useState("Anish");
   return (
-    <div className="App">
-      <Student name={name} />
-      <button
-        onClick={() => {
-          setName("Singh");
-        }}
-      >
-        Update Name
-      </button>
-    </div>
+    <>
+      <div className="App">
+        <h1>Props !</h1>
+        <Student name="Anish" email="anish90@gmail.com" />
+      </div>
+    </>
   );
 }
 
