@@ -1,16 +1,16 @@
-import Members from "./Component/Members";
-import User from "./Component/User";
+import React from "react";
 
-function App() {
-  function getData() {
-    alert("Hello From App");
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      data: "Anish",
+    };
   }
-  return (
-    <div className="App">
-      <User data={getData} />
-      <Members data={getData} />
-    </div>
-  );
+
+  render() {
+    return <h1>Hello World</h1>;
+  }
 }
 
 export default App;
