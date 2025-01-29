@@ -1,14 +1,16 @@
 import { useState } from "react";
 
 function App() {
-  const [data, setData] = useState("Anish Singh");
-  function Update() {
-    setData("Singh Patel");
+  const [count, setCount] = useState(2);
+
+  function Table() {
+    setCount(count + 2);
   }
+
   return (
     <div className="App">
-      <h1>{data}</h1>
-      <button onClick={Update}>Change Name</button>
+      <h1>Count: {count}</h1>
+      <button onClick={Table}>Table</button>
     </div>
   );
 }
