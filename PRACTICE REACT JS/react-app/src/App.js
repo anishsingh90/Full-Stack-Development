@@ -1,8 +1,14 @@
+import { useState } from "react";
+
 function App() {
+  const [data, setData] = useState("Anish Singh");
+  function Update() {
+    setData("Singh Patel");
+  }
   return (
     <div className="App">
-      <h1>Event By Arrow Function</h1>
-      <button onClick={() => alert("Anish Singh")}>CLick Me!</button>
+      <h1>{data}</h1>
+      <button onClick={Update}>Change Name</button>
     </div>
   );
 }
