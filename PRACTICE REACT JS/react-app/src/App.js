@@ -1,14 +1,9 @@
 function App() {
-  function Apple() {
-    alert("Event is Executed!");
-  }
   return (
-    <>
-      <div>
-        <h1>Event in React JS</h1>
-      </div>
-      <button onClick={Apple}>Click Me!</button>
-    </>
+    <div className="App">
+      <h1>Event By Arrow Function</h1>
+      <button onClick={() => alert("Anish Singh")}>CLick Me!</button>
+    </div>
   );
 }
 
