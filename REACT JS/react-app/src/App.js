@@ -1,9 +1,11 @@
 import React from "react";
 
-class App extends React.Component() {
+class App extends React.Component {
   constructor() {
     super();
-    console.warn("constructor");
+    this.state = {
+      name: "Anish",
+    };
   }
   componentDidMount() {
     console.warn("componentDidMount");
@@ -13,7 +15,10 @@ class App extends React.Component() {
 
     return (
       <div className="App">
-        <h1>Component Did Mount</h1>
+        <h1>Component Did Mount {this.state.name}</h1>
+        <button onClick={() => this.setState({ name: "Singh" })}>
+          Update Name
+        </button>
       </div>
     );
   }
