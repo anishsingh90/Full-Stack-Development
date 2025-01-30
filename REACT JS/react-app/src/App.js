@@ -7,12 +7,12 @@ class App extends React.Component {
       count: 0,
     };
   }
-  componentDidMount(preProps, preState, snapshot) {
-    console.warn("componentDidMount", preState);
+  componentDidUpdate(preProps, preState, snapshot) {
+    if (this.state.count < 10) {
+      this.setState({ count: this.state.count + 1 });
+    }
   }
   render() {
-    console.warn("render");
-
     return (
       <div className="App">
         <h1>Count: {this.state.count}</h1>
