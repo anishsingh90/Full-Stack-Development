@@ -1,18 +1,27 @@
-import { useState } from "react";
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(2);
+class App extends React.Component {
+  constructor() {
+    super();
 
-  function Table() {
-    setCount(count + 2);
+    this.state = {
+      name: "Anish Patel",
+    };
   }
 
-  return (
-    <div className="App">
-      <h1>Count: {count}</h1>
-      <button onClick={Table}>Table</button>
-    </div>
-  );
+  apple() {
+    this.setState({ name: "Anish Singh" });
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Hello World!</h1>
+        <h1>{this.state.name}</h1>
+        <button onClick={() => this.apple()}>Update Name</button>
+      </div>
+    );
+  }
 }
 
 export default App;
