@@ -1,29 +1,20 @@
 import React from "react";
+import Student from "./Component/Student";
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      count: 0,
+      show: true,
     };
-  }
-
-  shouldComponentUpdate() {
-    console.warn("should component update", this.state.count);
-    if (this.state.count > 5 && this.state.count < 10) {
-      return true;
-    }
   }
   render() {
     return (
       <div className="App">
-        <h1>Should Component Update {this.state.count}</h1>
-        <button
-          onClick={() => {
-            this.setState({ count: this.state.count + 1 });
-          }}
-        >
-          Update-Counter
+        {this.state.show ? <Student /> : <h1>Child Component Removed</h1>}
+
+        <button onClick={() => this.setState({ show: !this.state.show })}>
+          Toggle Child Component
         </button>
       </div>
     );
