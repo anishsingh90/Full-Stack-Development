@@ -7,17 +7,21 @@ class App extends React.Component {
       count: 0,
     };
   }
-  componentDidUpdate(preProps, preState, snapshot) {
-    if (this.state.count < 10) {
-      this.setState({ count: this.state.count + 1 });
-    }
+
+  shouldComponentUpdate() {
+    console.warn("should component update", this.state.count);
+    return true;
   }
   render() {
     return (
       <div className="App">
-        <h1>Count: {this.state.count}</h1>
-        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-          Update Name
+        <h1>Should Component Update {this.state.count}</h1>
+        <button
+          onClick={() => {
+            this.setState({ count: this.state.count + 1 });
+          }}
+        >
+          Update-Counter
         </button>
       </div>
     );
