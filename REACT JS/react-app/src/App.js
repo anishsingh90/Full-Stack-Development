@@ -10,7 +10,9 @@ class App extends React.Component {
 
   shouldComponentUpdate() {
     console.warn("should component update", this.state.count);
-    return true;
+    if (this.state.count > 5 && this.state.count < 10) {
+      return true;
+    }
   }
   render() {
     return (
