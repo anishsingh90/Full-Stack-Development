@@ -1,24 +1,12 @@
-import React from "react";
-import Student from "./Component/Student";
+import React, { useState } from "react";
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      show: true,
-    };
-  }
-  render() {
-    return (
-      <div className="App">
-        {this.state.show ? <Student /> : <h1>Child Component Removed</h1>}
-
-        <button onClick={() => this.setState({ show: !this.state.show })}>
-          Toggle Child Component
-        </button>
-      </div>
-    );
-  }
+function App() {
+  const [data, setData] = useState("Anish");
+  return (
+    <div className="App">
+      <h1>{data}</h1>
+    </div>
+  );
 }
 
 export default App;
