@@ -1,14 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const dirPath = path.join(__dirname, "file");
-
-// for (i = 0; i < 5; i++) {
-//   fs.writeFileSync(dirPath + "/hello" + i + ".txt", "a simple text file");
-//   fs.writeFileSync(dirPath + `/raaz${i}.txt`, "a simple text file");
-// }
-
-fs.readdir(dirPath, (err, files) => {
-  files.forEach((item) => {
-    console.log(item);
-  });
-});
+const dirPath = path.join(__dirname, "crud");
+const filePath = `${dirPath}/apple.txt`;
+fs.writeFileSync(filePath, "This is a simple text file");
