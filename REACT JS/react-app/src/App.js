@@ -1,25 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import "./Component/style.css";
+import style from "./Component/custom.module.css";
 
 function App() {
-  const [data, setData] = useState(10);
-  const [count, setCount] = useState(100);
-
-  // useEffect on data
-  useEffect(() => {
-    console.log("useEffect Called");
-  }, [data]);
-
-  // useEffect on Count
-  useEffect(() => {
-    alert("count is " + count);
-  }, [count]);
-
   return (
     <div className="App">
-      <h1>Count: {count}</h1>
-      <h1>Data: {data}</h1>
-      <button onClick={() => setCount(count + 1)}>Update Count</button>
-      <button onClick={() => setData(data + 1)}>Update Data</button>
+      <h1 className="primary">Style type 1 in React js</h1>
+
+      {/* Inline CSS  */}
+      <h1 style={{ color: "red", backgroundColor: "black" }}>
+        Style type 2 in React js
+      </h1>
+
+      {/* Modular CSS  */}
+      <h1 className={style.success}>Style type 3 in React js</h1>
     </div>
   );
 }
