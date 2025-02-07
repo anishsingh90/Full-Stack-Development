@@ -1,18 +1,10 @@
-import React, { useState } from "react";
 import Practice from "./component/Practice";
 
 function App() {
-  const [name, setName] = useState("Anish");
   return (
     <div className="App">
-      <Practice name={name} />
-      <button
-        onClick={() => {
-          setName("Singh");
-        }}
-      >
-        Update Name
-      </button>
+      <h1>Props !</h1>
+      <Practice name="Anish" email="anishraaz90@gmail.com" />
     </div>
   );
 }
