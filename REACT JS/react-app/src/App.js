@@ -3,28 +3,73 @@ import { Table } from "react-bootstrap";
 
 function App() {
   const users = [
-    { name: "anil", email: "anish90@gmail.com", contact: 111 },
-    { name: "sidhu", email: "sidhu87@gmail.com", contact: 763 },
-    { name: "sam", email: "sam54@gmail.com", contact: 873 },
-    { name: "peter", email: "peter54@gmail.com", contact: 8473 },
+    {
+      name: "Anil",
+      email: "anish90@gmail.com",
+      address: [
+        { Hn: "10", city: "Noida", country: "India" },
+        { Hn: "11", city: "Delhi", country: "India" },
+        { Hn: "12", city: "Nagpur", country: "India" },
+        { Hn: "13", city: "Patna", country: "India" },
+      ],
+    },
+    {
+      name: "Sidhu",
+      email: "sidhu87@gmail.com",
+      address: [
+        { Hn: "10", city: "Noida", country: "India" },
+        { Hn: "11", city: "Delhi", country: "India" },
+        { Hn: "12", city: "Nagpur", country: "India" },
+        { Hn: "13", city: "Patna", country: "India" },
+      ],
+    },
+    {
+      name: "Sam",
+      email: "sam54@gmail.com",
+      address: [
+        { Hn: "10", city: "Noida", country: "India" },
+        { Hn: "11", city: "Delhi", country: "India" },
+        { Hn: "12", city: "Nagpur", country: "India" },
+        { Hn: "13", city: "Patna", country: "India" },
+      ],
+    },
+    {
+      name: "Peter",
+      email: "peter54@gmail.com",
+      address: [
+        { Hn: "10", city: "Noida", country: "India" },
+        { Hn: "11", city: "Delhi", country: "India" },
+        { Hn: "12", city: "Nagpur", country: "India" },
+        { Hn: "13", city: "Patna", country: "India" },
+      ],
+    },
   ];
 
   return (
     <div className="App">
       <h1>Handle Array with List</h1>
-      <Table striped bordered hover>
-        <tbody>
+      <Table variant="dark" striped bordered hover>
+        <thead>
           <tr>
             <th>Name</th>
             <th>Email</th>
-            <th>Contact</th>
+            <th>Address</th>
           </tr>
-
-          {users.map((item, index) => (
+        </thead>
+        <tbody>
+          {users.map((user, index) => (
             <tr key={index}>
-              <td>{item.name}</td>
-              <td>{item.email}</td>
-              <td>{item.contact}</td>
+              <td>{user.name}</td>
+              <td>{user.email}</td>
+              <td>
+                <ul>
+                  {user.address.map((addr, i) => (
+                    <li key={i}>
+                      {addr.Hn}, {addr.city}, {addr.country}
+                    </li>
+                  ))}
+                </ul>
+              </td>
             </tr>
           ))}
         </tbody>
