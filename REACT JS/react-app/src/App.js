@@ -1,42 +1,34 @@
 import React from "react";
+import { Table } from "react-bootstrap";
 
 function App() {
-  // const students = ["Anish", "Sidhu", "Sam", "Peter"];
-
-  const students = [
-    {
-      name: "anil",
-      email: "anish90@gmail.com",
-      contact: 111,
-    },
-    {
-      name: "sidhu",
-      email: "sidhu87@gmail.com",
-      contact: 763,
-    },
-    {
-      name: "sam",
-      email: "sam54@gmail.com",
-      contact: 873,
-    },
-    {
-      name: "peter",
-      email: "peter54@gmail.com",
-      contact: 8473,
-    },
+  const users = [
+    { name: "anil", email: "anish90@gmail.com", contact: 111 },
+    { name: "sidhu", email: "sidhu87@gmail.com", contact: 763 },
+    { name: "sam", email: "sam54@gmail.com", contact: 873 },
+    { name: "peter", email: "peter54@gmail.com", contact: 8473 },
   ];
+
   return (
     <div className="App">
       <h1>Handle Array with List</h1>
-      <table>
-        {students.map((data) => (
+      <Table striped bordered hover>
+        <tbody>
           <tr>
-            <td>Name: {data.name}</td>
-            <td>Email: {data.email}</td>
-            <td>Contact: {data.contact}</td>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact</th>
           </tr>
-        ))}
-      </table>
+
+          {users.map((item, index) => (
+            <tr key={index}>
+              <td>{item.name}</td>
+              <td>{item.email}</td>
+              <td>{item.contact}</td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
     </div>
   );
 }
