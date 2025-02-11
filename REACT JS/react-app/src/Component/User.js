@@ -1,25 +1,11 @@
-import React from "react";
-
-class User extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      email: "anishraaz90@gmail.com",
-    };
-  }
-  render() {
-    return (
-      <div>
-        <h1>User Component</h1>
-        <p>Email: {this.state.email}</p>
-        <button
-          onClick={() => this.setState({ email: "raazanish01@gmail.com" })}
-        >
-          Update Email
-        </button>
-      </div>
-    );
-  }
+function Users(props) {
+  return (
+    <div className="Users">
+      <span>User {props.data.name}</span>
+      <span>User {props.data.email}</span>
+      <span>User {props.data.contact}</span>
+    </div>
+  );
 }
 
-export default User;
+export default Users;
