@@ -1,30 +1,18 @@
-import React from "react";
-import Practice from "./component/Practice";
+import React, { useState } from "react";
 
-class App extends React.Component {
-  constructor() {
-    super();
+function App() {
+  const [data, setData] = useState(null);
 
-    this.state = {
-      name: "Anish",
-      email: "anishraaz90@gmail.com",
-    };
+  function getData(val) {
+    setData(val.target.value);
   }
-  render() {
-    return (
-      <div className="App">
-        <Practice name={this.state.name} email={this.state.email} />
-
-        <button onClick={() => this.setState({ name: "Singh" })}>
-          Update Name
-        </button>
-
-        <button onClick={() => this.setState({ email: "singh90@gmail.com" })}>
-          Update Email
-        </button>
-      </div>
-    );
-  }
+  return (
+    <div className="App">
+      <h1>Hello</h1>
+      <h1>{data}</h1>
+      <input type="text" onChange={getData} />
+    </div>
+  );
 }
 
 export default App;
