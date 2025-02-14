@@ -1,24 +1,11 @@
 const express = require("express");
+const path = require("path");
+
 const app = express();
+const publicPath = path.join(__dirname, "public");
 
-app.get("", (req, resp) => {
-  resp.send("<h1>Welcome, this is Home Page</h1>");
-});
+app.use(express.static(publicPath));
 
-app.get("/about", (req, resp) => {
-  resp.send(`
-    <input type="text" placeholder="User name!"/>
-    <button>Click Me !</button>
-  `);
-});
+app.listen(5000);
 
-app.get("/help", (req, resp) => {
-  resp.send({
-    name: "anish",
-    email: "ansihraaz90@gmail.com",
-  });
-});
-
-app.listen(5000, () => {
-  console.log("Server is running on port 5000");
-});
+//http://localhost:5000/about.html
