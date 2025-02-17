@@ -6,8 +6,8 @@ const publicPath = path.join(__dirname, "public");
 
 app.set("view engine", "ejs");
 
-app.get("/about", (req, resp) => {
-  resp.sendFile(`${publicPath}/about.html`);
+app.get("/index", (req, resp) => {
+  resp.sendFile(`${publicPath}/index.html`);
 });
 
 app.get("/profile", (req, resp) => {
