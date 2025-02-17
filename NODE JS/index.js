@@ -10,10 +10,6 @@ app.get("/about", (req, resp) => {
   resp.sendFile(`${publicPath}/about.html`);
 });
 
-app.get("/index", (req, resp) => {
-  resp.sendFile(`${publicPath}/index.html`);
-});
-
 app.get("/profile", (req, resp) => {
   resp.render("profile");
 });
