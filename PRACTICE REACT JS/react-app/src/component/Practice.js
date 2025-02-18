@@ -1,14 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
-class Practice extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Name = {this.props.name}</h1>
-        <h1>Email = {this.props.email}</h1>
-      </div>
-    );
-  }
+function Practice() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  return (
+    // Conditional rendering in React.js
+    <div>{loggedIn ? <h1>Welcome Anish</h1> : <h1>Welcome Guest</h1>}</div>
+  );
 }
 
 export default Practice;
